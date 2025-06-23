@@ -18,6 +18,8 @@ Simulate its behavior using a Verilog testbench.
 Verify the correctness of read and write operations.
 
 Analyze results using both console outputs and waveform
+#output
+![Image](https://github.com/user-attachments/assets/6750e47a-c34c-47a4-bab6-83616c8551b2)
 
 The RAM module, named sync_ram, is parameterized with DATA_WIDTH and ADDR_WIDTH. This allows the module to be flexible for different memory sizes. For example, if DATA_WIDTH = 8 and ADDR_WIDTH = 4, the memory will have 16 locations (2^4) each storing 8-bit data.
 
